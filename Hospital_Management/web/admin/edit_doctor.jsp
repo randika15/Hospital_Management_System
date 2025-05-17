@@ -54,12 +54,12 @@
         font-weight: 500;
         color: var(--dark-teal);
         margin-bottom: 8px;
-        display: block; /* Ensures label stays above input */
+        display: block; 
     }
 
     .form-control, .form-select {
         border-radius: 8px;
-        padding: 12px 15px 12px 45px; /* Increased left padding for icons */
+        padding: 12px 15px 12px 45px; 
         border: 2px solid #e0e0e0;
         transition: all 0.3s;
         margin-bottom: 20px;
@@ -95,7 +95,7 @@
     .input-icon {
         position: absolute;
         left: 15px;
-        top: 40px; /* Adjusted to align with input field */
+        top: 40px; 
         color: var(--medical-blue);
         font-size: 1.1rem;
     }
@@ -104,7 +104,7 @@
         border-radius: 8px;
     }
 
-    /* Special styling for date input which doesn't need an icon */
+    
     .date-input-container {
         margin-bottom: 20px;
     }
@@ -150,7 +150,7 @@
                         %>
 
                         <form action="../updateDoctor" method="post">
-                            <!-- Full Name Field -->
+                            <!-- Full Name -->
                             <div class="input-container">
                                 <label class="form-label">Full Name</label>
                                 <i class="fas fa-user-md input-icon"></i>
@@ -158,14 +158,14 @@
                                     value="<%=d.getFullName()%>">
                             </div>
 
-                            <!-- Date of Birth Field (no icon) -->
+                            <!-- Date of Birth -->
                             <div class="date-input-container">
                                 <label class="form-label">Date of Birth</label>
                                 <input type="date" value="<%=d.getDob()%>" required name="dob"
                                     class="form-control">
                             </div>
 
-                            <!-- Qualification Field -->
+                            <!-- Qualification -->
                             <div class="input-container">
                                 <label class="form-label">Qualification</label>
                                 <i class="fas fa-graduation-cap input-icon"></i>
@@ -173,7 +173,7 @@
                                     class="form-control" value="<%=d.getQualification()%>">
                             </div>
 
-                            <!-- Specialization Field -->
+                            <!-- Specialization -->
                             <div class="input-container">
                                 <label class="form-label">Specialization</label>
                                 <i class="fas fa-stethoscope input-icon"></i>
@@ -191,7 +191,7 @@
                                 </select>
                             </div>
 
-                            <!-- Email Field -->
+                            <!-- Email -->
                             <div class="input-container">
                                 <label class="form-label">Email</label>
                                 <i class="fas fa-envelope input-icon"></i>
@@ -199,7 +199,7 @@
                                     class="form-control" value="<%=d.getEmail()%>">
                             </div>
 
-                            <!-- Mobile Number Field -->
+                            <!-- Mobile Number -->
                             <div class="input-container">
                                 <label class="form-label">Mobile Number</label>
                                 <i class="fas fa-phone input-icon"></i>
@@ -207,7 +207,7 @@
                                     class="form-control" value="<%=d.getMobNo()%>">
                             </div>
 
-                            <!-- Password Field -->
+                            <!-- Password -->
                             <div class="input-container">
                                 <label class="form-label">Password</label>
                                 <i class="fas fa-lock input-icon"></i>
