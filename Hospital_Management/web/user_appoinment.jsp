@@ -313,14 +313,14 @@
 
     <%@include file="component/footer.jsp"%>
 
-    <!-- Add Font Awesome for icons -->
+    
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <script>
-        // Set minimum date for appointment (today)
+        
         document.getElementById('appoint_date').min = new Date().toISOString().split('T')[0];
 
-        // Add animation to form elements when focused
+        
         const formControls = document.querySelectorAll('.form-control, .form-select');
         formControls.forEach(control => {
             control.addEventListener('focus', function() {
