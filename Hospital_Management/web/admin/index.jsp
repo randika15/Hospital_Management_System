@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <!-- Users Card -->
+            <!-- Users -->
             <div class="col-md-4">
                 <div class="card stat-card">
                     <div class="stat-card-body">
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <!-- Appointments Card -->
+            <!-- Appointments -->
             <div class="col-md-4">
                 <div class="card stat-card">
                     <div class="stat-card-body">
@@ -160,7 +160,7 @@
                 </div>
             </div>
 
-            <!-- Specialists Card -->
+            <!-- Specialists -->
             <div class="col-md-4">
                 <div class="card stat-card specialist-card" data-bs-toggle="modal"
                     data-bs-target="#specialistModal">
