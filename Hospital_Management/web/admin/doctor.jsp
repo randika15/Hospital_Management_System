@@ -54,16 +54,16 @@
         font-weight: 500;
         color: var(--dark-teal);
         margin-bottom: 8px;
-        display: block; /* Ensures label is on its own line */
+        display: block; 
     }
 
     .form-control, .form-select {
         border-radius: 8px;
-        padding: 12px 15px 12px 45px; /* Increased left padding for icons */
+        padding: 12px 15px 12px 45px; 
         border: 2px solid #e0e0e0;
         transition: all 0.3s;
         margin-bottom: 20px;
-        width: 100%; /* Ensures full width */
+        width: 100%; 
     }
 
     .form-control:focus, .form-select:focus {
@@ -95,7 +95,7 @@
     .input-icon {
         position: absolute;
         left: 15px;
-        top: 40px; /* Adjusted to align with input field */
+        top: 40px; 
         color: var(--medical-blue);
         font-size: 1.1rem;
     }
@@ -104,7 +104,7 @@
         border-radius: 8px;
     }
 
-    /* Special styling for date input which doesn't need an icon */
+    
     .date-input-container {
         margin-bottom: 20px;
     }
