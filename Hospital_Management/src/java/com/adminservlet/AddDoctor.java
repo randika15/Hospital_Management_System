@@ -21,7 +21,7 @@ public class AddDoctor extends HttpServlet {
 		String dob      = req.getParameter("dob");
 		String qualification = req.getParameter("qualification");
 
-		// Parse specialist into int
+		
 		int specialist_id;
 		try {
 			specialist_id = Integer.parseInt(req.getParameter("spec"));
