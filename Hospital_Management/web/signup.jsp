@@ -271,7 +271,7 @@
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         
         <script>
-            // Add animation to form elements when focused
+            
             const inputs = document.querySelectorAll('.form-control');
             inputs.forEach(input => {
                 input.addEventListener('focus', function() {
@@ -284,9 +284,9 @@
                 });
             });
             
-            // Password strength indicator (example)
+            
             document.querySelector('input[name="password"]').addEventListener('input', function() {
-                // You could add password strength logic here
+                
             });
         </script>
     </body>
