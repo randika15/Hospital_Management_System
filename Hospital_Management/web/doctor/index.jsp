@@ -120,7 +120,7 @@
         %>
 
         <div class="row justify-content-center">
-            <!-- Doctors Count Card -->
+            
             <div class="col-md-5">
                 <div class="card stats-card">
                     <div class="stats-card-body">
@@ -131,7 +131,7 @@
                 </div>
             </div>
 
-            <!-- Appointments Count Card -->
+            
             <div class="col-md-5">
                 <div class="card stats-card">
                     <div class="stats-card-body">
@@ -143,7 +143,7 @@
             </div>
         </div>
 
-        <!-- Quick Actions Section -->
+        
         <div class="row justify-content-center mt-4">
             <div class="col-md-10">
                 <div class="card stats-card">
