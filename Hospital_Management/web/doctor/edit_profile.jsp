@@ -175,7 +175,7 @@
                 </div>
             </div>
 
-            <!-- Edit Profile Card -->
+            
             <div class="col-md-6">
                 <div class="card settings-card">
                     <div class="card-header">
